@@ -1,0 +1,36 @@
+.conflict {
+    background-image: url(/images/ConflictToast.png);
+    background-color: #0000;
+}
+.conflict:hover {
+    background-image: url(/images/conflict.gif);
+}
+
+.anomaly {
+    background-image: url(/images/anomaly.png);
+    background-color: #0000;
+}
+.anomaly:hover {
+    background-image: url(/images/anomaly.gif);
+}
+
+.armageddon {
+    background-image: url(/images/Armageddon.png);
+    background-color: #0000;
+}
+.armageddon:hover {
+    background-image: url(/images/armageddon.gif);
+}
+
+.taisou {
+    background-image: url(/images/taisou.png);
+    background-color: #0000;
+}
+
+.spookfest {
+    background-image: url(/images/spookfest.png);
+    background-color: #0000;
+}
+.spookfest:hover {
+    background-image: url(/images/spookfest.gif);
+}
