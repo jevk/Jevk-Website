@@ -45,7 +45,7 @@ footer i {
     overflow: hidden;
 }
 footer i:hover {
-    font-size: 26px;
+    transform: scale(1.3);
 }
 
 .size {
