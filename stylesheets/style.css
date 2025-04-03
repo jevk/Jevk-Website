@@ -216,7 +216,7 @@ footer i:hover {
         rgba(66,69,82,0.42),
         rgba(74,76,85,0.69)
     ),
-    url(../images/conflict.png);
+    url(../images/conflict.webp);
     background-attachment: fixed;
     background-blend-mode: multiply;
     background-color: #000;
@@ -261,30 +261,6 @@ footer i:hover {
     border-radius: 1.25em;
 }
 
-
-
-
-
-
-
-
-
-.map-section.conflict-large {
-    background-image: linear-gradient(#0000, #121212), url(/images/mapbg/conflict.png);
-    z-index: -6;
-}
-.map-section.anomaly-large {
-    background-image: linear-gradient(#0000, #0000, #121212), url(/images/mapbg/anomaly.png);
-    z-index: -5;
-}
-.map-section.weeaboo-large {
-    background-image: linear-gradient(#0000, #0000, #121212), url(/images/mapbg/weeaboo.png);
-    z-index: -4;
-}
-.map-section.armageddon-large {
-    background-image: linear-gradient(#0000, #0000, #121212), url(/images/mapbg/armageddon.png);
-    z-index: -4;
-}
 .map-section {
     animation: 1s fadeIn;
     background-position-x:center;

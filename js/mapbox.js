@@ -29,19 +29,19 @@ function mapBox(name, img, video, script) {
 }
 
 const mapData = [{ 
-    name: "Conflict", img: "/images/ConflictToast.png",
+    name: "Conflict", img: "/images/ConflictToast.webp",
     video: "https://www.youtube.com/watch?v=NicNQA67NqE",
     script: "https://github.com/jevk/JevkMaps/tree/main/Conflict"
 }, {
-    name: "GHOUL", img: "/images/ghoul.png",
+    name: "GHOUL", img: "/images/ghoul.webp",
     video: "https://youtu.be/o0vC9ymtMAg?si=7Tv3Ca679e1LKonS&t=15",
     script: "https://github.com/jevk/JevkMaps/tree/main/GHOUL"
 }, { 
-    name: "Armageddon", img: "/images/Armageddon.png",
+    name: "Armageddon", img: "/images/Armageddon.webp",
     video: "https://www.youtube.com/watch?v=yO7H7taf2Mk",
     script: "https://github.com/jevk/JevkMaps/tree/main/Armageddon"
 }, {
-    name: "GHOST", img: "/images/ghost.png",
+    name: "GHOST", img: "/images/ghost.webp",
     video: "https://www.youtube.com/watch?v=xh3Vijx4xXc",
     script: "https://github.com/jevk/JevkMaps/tree/main/GHOST"
 }];

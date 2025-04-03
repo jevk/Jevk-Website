@@ -9,7 +9,7 @@ const json = {
                 "The map took me about 9 months to finish, and I think it was 100% worth it."
             ],
             video: "https://www.youtube.com/embed/o0vC9ymtMAg?si=X-bQINQrvNxLR08g&amp;start=15",
-            img: "/images/mapbg/ghoul.png"
+            img: "/images/mapbg/ghoul.webp"
         }, {
             name: "siromaru + cranky - Conflict",
             contents: [
@@ -19,7 +19,7 @@ const json = {
                 "I finished the map in about a week with the help of feedback from other people. Mawntee also helped me understand how to make the notemods more readable. AaltopahWi helped me to understand how environments work. I really enjoyed making it and I'm glad people like it so much!"
             ],
             video: "https://www.youtube.com/embed/NicNQA67NqE?start=3",
-            img: "/images/mapbg/conflict.png"
+            img: "/images/mapbg/conflict.webp"
         }, {
             name: "Camellia - Anomaly",
             contents: [
@@ -28,7 +28,7 @@ const json = {
                 "Personally, I do not like this chart that much and I think it's an okay chart, but not nearly as good as my recent ones. However, I appreciate the fact that people enjoy the map. Honestly, if I would've never published this, I probably wouldn't be doing maps today."
             ],
             video: "https://www.youtube.com/embed/rWWxWBH87aM?start=3",
-            img: "/images/mapbg/anomaly.png"
+            img: "/images/mapbg/anomaly.webp"
         }, {
             name: "LeaF - Armageddon",
             contents: [
@@ -38,7 +38,7 @@ const json = {
                 "The lights in this map were really difficult to do, since there are a lot of different sounds in this song. But I somehow managed to actually light it."
             ],
             video: "https://www.youtube.com/embed/yO7H7taf2Mk",
-            img: "/images/mapbg/armageddon.png"
+            img: "/images/mapbg/armageddon.webp"
         }, {
             name: "Reek - Weeaboo Spookfest",
             contents: [
@@ -48,7 +48,7 @@ const json = {
                 "This map is not based on a NotITG chart, it's completely original effects by me, hence why I'm surprised how well it turned out."
             ],
             video: "https://www.youtube.com/embed/sHy5nKU0E-8",
-            img: "/images/mapbg/weeaboo.png"
+            img: "/images/mapbg/weeaboo.webp"
         }
     ]
 }
