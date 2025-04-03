@@ -1,4 +1,4 @@
-@media (max-width: 600px) {
+@media (max-width: 870) {
     section p {
         font-size: 24px;
     }
@@ -11,57 +11,10 @@
     .toggle-button:hover {
         animation: spin 1s;
     }
-    .hamburger {
-        top: 0;
-        right: 0;
-        position: fixed;
-        display: flex;
-        background-color: #324;
-        height: 3.5rem;
-        width: 100%;
-        z-index: 2;
-        transition-duration: 0.25s;
-    }
-    .nav-div {
+    .brand-logo {
         display: none;
     }
-    .nav-div ul {
-        flex-direction: column;
-    }
-    .brand-logo {
-        z-index: 4;
-        top: 0.25rem;
-        left: 0.25rem;
-        width: 2.25rem;
-        height: 2.25rem;
-        border-width: 2px;
-        position: fixed;
-    }
-    .brand-logo img {
-        width: 2.25rem;
-        height: 2.25rem;
-    }
-    .nav-text {
-        font-size: 40px;
-        margin: 40px auto;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        overflow: hidden;
-    }
-    .nav-text li {
-        overflow: hidden;
-        padding: 0;
-        border-bottom: 1px #fff solid;
-        border-top: 1px #fff solid;
-    }
-    .nav-text a {
-        color: #fff;
-        overflow: hidden;
-        display: block;
-        margin: 4px;
-        text-decoration: none;
-    }
+    
     .map-box-container {
         flex-direction: column;
         padding: 10px;
