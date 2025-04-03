@@ -136,14 +136,20 @@ footer i:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
-    padding: 0 auto;
+    margin: 0;
+    padding: 24px;
     background-color: #0000;
     animation-delay: 1.5s;
     animation: 1.75s ease-out 0s 1 slideIn;
+    overflow: hidden;
+}
+.pfp a {
     transition-duration: .25s;
 }
-.pfp:hover {
+.pfp a:hover {
+    transform: scale(1.2);
+}
+.pfp a:hover div {
     transform: scale(1.2);
 }
 
