@@ -4,79 +4,46 @@
         <meta charset="UTF-8">
         <!-- <meta name="viewport" content="width-device-width, initial-scale=1"> -->
         <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes">
+
         <script src="https://kit.fontawesome.com/024127dada.js" crossorigin="anonymous"></script>
+
         <link rel="stylesheet" href="stylesheets/anims.css">
         <link rel="stylesheet" href="stylesheets/style.css">
         <link rel="stylesheet" href="stylesheets/mobile.css">
         <link rel="stylesheet" href="stylesheets/mapnames.css">
+
         <script src="js/main.js"></script>
-        <title>a</title>
+        <script src="js/mapbox.js"></script>
+
+        <title>Jevk</title>
     </head>
     <body>
-        <div class="brand-logo">
-            <a href="https://beatsaver.com/profile/4284636" target="_blank">
-                <img src="images/jevk.png">
-            </a>
-        </div>
-        <div class="hamburger" id="borgor">
-            <a class="toggle-button" onclick="hideHam()">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </a>
-            <ul id="navText" class="video nav-text hide-text">
-                <li><a href="#"><b>Home</b></a></li>
-                <li><a href="maps.html">Maps</a></li>
-                <li><a href="https://beatsaver.com/profile/4284636" target="_blank">BeatSaver</a></li>
-                <li><a href="https://scoresaber.com/u/76561198100136966?page=1&sort=top" target="_blank">Scoresaber</a></li>
-                <li><a href="https://github.com/jevk/JevkMaps" target="_blank">Scripts</a></li>
-            </ul>
-        </div>
         <div class="top-image">
+            <div class="brand-logo">
+                <a href="https://beatsaver.com/profile/4284636" target="_blank">
+                    <img src="images/jevk.png">
+                </a>
+            </div>
             <h1>Jevk</h1>
-            <p>Making noodle maps for fun, I guess.</p>
+            <p>Making modhcarts for fun, I guess.</p>
+            <p>Check out my maps on <a href="https://beatsaver.com/profile/4284636" target="_blank">BeatSaver</a>!</p>
             <p style="color:#fff0;animation:none;">In a desperate conflict, with a ruthless enemy.</p>
         </div>
-        <div class="nav-div" id="nav">
-            <ul>
-                <li><a href="#"><b>Home</b></a></li>
-                <li><a href="maps.html">Maps</a></li>
-                <li><a href="https://beatsaver.com/profile/4284636" target="_blank">BeatSaver</a></li>
-                <li><a href="https://scoresaber.com/u/76561198100136966?page=1&sort=top" target="_blank">Scoresaber</a></li>
-                <li><a href="https://github.com/jevk/JevkMaps" target="_blank">Scripts</a></li>
-            </ul>
-        </div>
+
+        <div class="nav-div" id="nav"></div>
+        
         <section class="maps">
             <h2>Previews</h2>
-            <div class="map-box-container">
-                <div class="map-box conflict">
-                    Conflict
-                    <br>
-                    <ul>
-                        <li><a href="https://www.youtube.com/watch?v=NicNQA67NqE" target="_blank">Video</a></li>
-                        <li><a href="https://github.com/jevk/JevkMaps/tree/main/Conflict" target="_blank">Script</a></li>
-                    </ul>
-                </div>
-                <div class="map-box armageddon">
-                    Armageddon
-                    <br>
-                    <ul>
-                        <li><a href="https://www.youtube.com/watch?v=yO7H7taf2Mk" target="_blank">Video</a></li>
-                        <li><a href="https://github.com/jevk/JevkMaps/tree/main/Armageddon" target="_blank">Script</a></li>
-                    </ul>
-                </div>
-            </div>
+
+            <div class="map-box-container"></div>
         </section>
-        <footer>
-            <br>
-            <a href="https://beatsaver.com/profile/4284636" target="_blank"><i class="fa-solid fa-square-caret-down size"></i></a>
-            <a href="https://twitter.com/jevk_" target="_blank"><i class="fa-brands fa-twitter-square size"></i></a>
-            <a href="https://discord.gg/GgfNCWbUgY" target="_blank"><i class="fa-brands fa-discord size"></i></a>
-            <a href="https://github.com/jevk" target="_blank"><i class="fa-brands fa-github-square size"></i></a>
-            <a href="https://twitch.tv/jevk" target="_blank"><i class="fa-brands fa-twitch size"></i></a>
-            <a href="https://youtube.com/c/JevkTTV" target="_blank"><i class="fa-brands fa-youtube size"></i></a>
-            <br>
-            <br>
-        </footer>
+
+        <script>
+            window.onload = function() {
+                buildNavbar();
+                buildAllMaps();
+                buildFooter();
+            }
+        </script>
     </body>
 </html>
