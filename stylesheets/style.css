@@ -173,6 +173,7 @@ footer i:hover {
     background-color: #000a;
     position: fixed;
     justify-content: space-between;
+    z-index: 9999;
 }
 .nav-div ul {
     padding: 0;
